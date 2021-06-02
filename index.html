@@ -15,6 +15,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script>
+        jQuery(document).ready(function ($) {
+    $(window).load(function () {
+        setTimeout(function(){
+            $('#loading').fadeOut('slow', function () {
+            });
+        },10000); 
+    });  
+    </script>
+    
     <!-- <link href="//db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham" rel="stylesheet" type="text/css"/>
     <link href="//db.onlinewebfonts.com/c/9a2bc11be56851dde98c1b49302cc21a?family=Gotham+Medium" rel="stylesheet" type="text/css"/>
     <link href="//db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo" rel="stylesheet" type="text/css"/>
@@ -354,13 +365,7 @@
             //
             
             
-jQuery(document).ready(function ($) {
-    $(window).load(function () {
-        setTimeout(function(){
-            $('#loading').fadeOut('slow', function () {
-            });
-        },10000); // set the time here
-    });  
+
     
     
     
