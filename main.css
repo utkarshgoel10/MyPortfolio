@@ -1208,6 +1208,24 @@ color:#c26700;
         font-size: 6rem;
     }
 }
+@media screen and (max-width: 410px){
+    .skill p{
+        font-size:1.5rem; margin-right: 5rem;
+    }
+}    
+@media screen and (max-width: 321px){
+    .landing-text h1{
+        font-size: 6rem;
+    }
+    .skill p{
+     margin-right: 8rem;
+    }
+}
+@media screen and (max-width:281px){
+    .skill p{
+        margin-right: 10rem;
+       }
+}
 @media (min-width: 775px) and (max-width: 1200px){
         .nav-list{
         flex-direction: column;
